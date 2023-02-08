@@ -1,12 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
 .max-half{
     max-width: 50%;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 nav{
     margin: 20px;
+}
+
+.min-img-width{
+
 }
 
 
@@ -15,9 +24,21 @@ nav{
     display: inline-flex;
 }
 
+.sm-pad{
+    padding: 15px;
+}
+
+.welcome.fs-4{
+    justify-content: center;    
+}
+
 @media (max-width: 991px) {
     .max-half{
         max-width: 100%;
+    }
+
+    .welcome{
+        display: none;
     }
 
     .flex-enlinea{
