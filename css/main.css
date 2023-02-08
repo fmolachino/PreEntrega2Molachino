@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 .max-half{
@@ -12,6 +13,7 @@ body{
 
 nav{
     margin: 20px;
+    max-width: 95%;
 }
 
 .min-img-width{
@@ -30,6 +32,11 @@ nav{
 
 .welcome.fs-4{
     justify-content: center;    
+}
+
+.no-margin-pad{
+    margin: 0px; 
+    padding: 0px;
 }
 
 @media (max-width: 991px) {
