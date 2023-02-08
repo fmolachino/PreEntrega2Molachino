@@ -1,17 +1,12 @@
-/*body{
-    display: flex;
-    height: 600px;
-    flex-direction: column;
-    padding: 1em;
-}*/
 
 .max-half{
     max-width: 50%;
     margin: 0px;
+    padding: 0px;
 }
 
 nav{
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 
