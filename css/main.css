@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     justify-content: center;
-    background-color: #212529;
+    background-color: #212529d9;
 }
 
 .max-half{
@@ -17,28 +17,65 @@ nav{
     max-width: 95%;
 }
 
-.min-img-width{
-
-}
-
-
 
 .flex-enlinea{
     display: inline-flex;
 }
 
 .sm-pad{
-    padding: 15px;
+    padding: 0px 10px;
+    margin-bottom: 5px;
 }
 
-.welcome.fs-4{
-    justify-content: center;    
+.fs-4{
+    color: beige;
+    text-align: center;
+    border: 1px solid rgba(97, 90, 97, 0.728);
+
 }
+
+.fs-4 a{
+    text-decoration: none;
+    background: #254652;
+    color: beige;
+    padding: 2px;
+    border-radius: 14px;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+
+.fs-4 a:hover{
+    background-color: gold;
+    color: black;
+}
+
 
 .no-margin-pad{
     margin: 0px; 
     padding: 0px;
 }
+
+.blackish-bg-gold-text{
+    background-color: rgba(10, 10, 10, 0.75);
+    color: rgb(226, 165, 75);
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
 
 @media (max-width: 991px) {
     .max-half{

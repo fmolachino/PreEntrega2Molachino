@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Micarro's Rental - Contact Us</title>
 </head>
 <body>
@@ -38,7 +38,52 @@
               </div>
             </div>
           </nav>
+    </div>
+  <main class="container">
+    <div class="container">
+      <div class="row fs-4">
+        <p class="fs-4">Contact us for whatever you need to know!</p>
+        <p class="contact-us-info">
+          Please for further information or getting our services fill the form down below. Dont forget to select the desired vehicle type!
+        </p>
       </div>
-    
+    </div>
+
+    <div class="container">
+      <div class="">
+        <fieldset class="blackish-bg-gold-text">
+          <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+              <div>
+                  <label for="name">Your name:</label>
+                  <input type="text" name="name" placeholder="Your name" id="name">
+              </div>
+              <div>
+                  <label for="email">Your email:</label>
+                  <input type="email" name="email" placeholder="Your email" id="email">
+              </div>
+              <div>
+                  <label for="vehicletype">Select vehicle type</label>
+                  <select name="vehicletype">
+                      <option value="cars">Cars</option>
+                      <option value="pickups">Pickups</option>
+                      <option value="suvs">Suvs</option>
+                  </select>
+              </div>
+              <label for="question" class="question-tag">Your question:</label>
+              <div>
+                  
+                  <textarea placeholder="Your question or commentaries" name="question" id="question"></textarea>
+              </div>
+              <input class="boton" type="submit" value="Send">
+          </form>
+      </fieldset>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    All right reserved for Micarro's Car Rental TM. Please for further trademark usage contact us via email to sales@micarros.com
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
