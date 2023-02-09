@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     justify-content: center;
+    background-color: #212529;
 }
 
 .max-half{
@@ -42,6 +43,7 @@ nav{
 @media (max-width: 991px) {
     .max-half{
         max-width: 100%;
+        margin: 20px;
     }
 
     .welcome{
