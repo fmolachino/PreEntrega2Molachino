@@ -76,6 +76,10 @@ fieldset {
     border-image: initial;
 }
 
+footer{
+    text-align: center;
+}
+
 
 @media (max-width: 991px) {
     .max-half{
