@@ -27,6 +27,10 @@ nav{
     margin-bottom: 5px;
 }
 
+.sm-margin{
+    margin: 4px;
+}
+
 .fs-4{
     color: beige;
     text-align: center;
@@ -77,6 +81,7 @@ fieldset {
 }
 
 footer{
+    background-color: bisque;
     text-align: center;
 }
 
