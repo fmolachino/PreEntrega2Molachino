@@ -102,5 +102,11 @@ footer{
     }
 }
 
+@media (max-width: 570px){
+    .row{
+        padding: 2px;
+        margin: 4px 0px;
+    }
+}
 
 
