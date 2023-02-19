@@ -102,10 +102,22 @@ footer{
     }
 }
 
+.card-body{
+    background-color: rgba(86, 72, 125, 0.55);
+}
+
+.card-text{
+    font-size: x-large;
+}
+
 @media (max-width: 570px){
     .row{
         padding: 2px;
         margin: 4px 0px;
+    }
+
+    .card-body{
+        padding: 2px;
     }
 }
 
