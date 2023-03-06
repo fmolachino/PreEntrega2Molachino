@@ -1,14 +1,6 @@
-$light-color-text: beige;
-$dark-color-text: black;
-$darkish-color-bg: #212529d9;
+@import "var";
+@import "body";
 
-
-body{
-    margin: 0px;
-    padding: 0px;
-    justify-content: center;
-    background-color: $darkish-color-bg;
-}
 
 .max-half{
     max-width: 50%;
@@ -98,12 +90,12 @@ fieldset {
 }
 
 footer{
-    background-color: bisque;
+    background-color: $footer-color-bg;
     text-align: center;
 }
 
 .card-body{
-    background-color: rgba(86, 72, 125, 0.55);
+    background-color: rgba(53, 45, 74, 0.55);
 }
 
 .card-text{
