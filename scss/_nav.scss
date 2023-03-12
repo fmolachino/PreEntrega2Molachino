@@ -10,7 +10,7 @@ nav{
 .nav-link{
     color: $light-color-text;
     &.active{
-        color: $light-color-text!important;
+        color: $light-color-text;
     }
 }
 
