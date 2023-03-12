@@ -4,11 +4,34 @@ body {
   justify-content: center;
   background-color: #212529d9; }
 
-.max-half {
-  max-width: 50%;
-  margin: 0px;
-  padding: 0px;
-  justify-content: center; }
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: silver;
+  border-image: initial; }
+
+.card-body {
+  background-color: rgba(53, 45, 74, 0.55); }
+
+.card-text {
+  font-size: x-large;
+  color: beige; }
+
+.vehicle-name {
+  color: lightskyblue; }
+
+.blackish-bg-gold-text {
+  background-color: rgba(10, 10, 10, 0.75);
+  color: #e2a54b;
+  text-align: center; }
 
 nav {
   margin: 20px;
@@ -25,8 +48,9 @@ nav {
 .navbar-brand {
   color: beige; }
 
-.flex-enlinea {
-  display: inline-flex; }
+.no-margin-pad {
+  margin: 0px;
+  padding: 0px; }
 
 .sm-pad {
   padding: 0px 10px;
@@ -34,6 +58,15 @@ nav {
 
 .sm-margin {
   margin: 4px; }
+
+.max-half {
+  max-width: 50%;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center; }
+
+.flex-enlinea {
+  display: inline-flex; }
 
 .fs-4 {
   color: beige;
@@ -51,39 +84,9 @@ nav {
       background-color: gold;
       color: black; }
 
-.no-margin-pad {
-  margin: 0px;
-  padding: 0px; }
-
-.blackish-bg-gold-text {
-  background-color: rgba(10, 10, 10, 0.75);
-  color: #e2a54b;
-  text-align: center; }
-
-fieldset {
-  display: block;
-  margin-inline-start: 2px;
-  margin-inline-end: 2px;
-  padding-block-start: 0.35em;
-  padding-inline-start: 0.75em;
-  padding-inline-end: 0.75em;
-  padding-block-end: 0.625em;
-  min-inline-size: min-content;
-  border-width: 2px;
-  border-style: groove;
-  border-color: silver;
-  border-image: initial; }
-
 footer {
   background-color: bisque;
   text-align: center; }
-
-.card-body {
-  background-color: rgba(53, 45, 74, 0.55); }
-
-.card-text {
-  font-size: x-large;
-  color: beige; }
 
 @media (max-width: 991px) {
   .max-half {

@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+    .max-half{
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+    .flex-enlinea{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width: 570px){
+    .row{
+        padding: 2px;
+        margin: 4px 0px;
+    }
+
+    .card-body{
+        padding: 2px;
+    }
+}
